@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jnlp href="launch.jnlp" spec="1.0+">
+    <information>
+        <title>Patient Management System</title>
+        <vendor>GeetLabs</vendor>
+        <homepage href="/splash.png"/>
+        <description>Customized Software for Psychiatrists based on Swing Application Framework</description>
+        <description kind="short">Patient Management System</description>
+        
+        
+    </information>
+    <update check="always"/>
+    
+    <resources>
+        <j2se version="1.6+"/>
+        <jar href="netbeanJavaClinic.jar" main="true"/>
+        
+        
+    <jar href="lib/toplink-essentials.jar"/>
+<jar href="lib/toplink-essentials-agent.jar"/>
+<jar href="lib/org-netbeans-modules-java-j2seproject-copylibstask.jar"/>
+<jar href="lib/AbsoluteLayout.jar"/>
+<jar href="lib/appframework-1.0.3.jar"/>
+<jar href="lib/beansbinding-1.2.1.jar"/>
+<jar href="lib/org-netbeans-modules-java-j2seproject-copylibstask.jar"/>
+<jar href="lib/swing-layout-1.0.1.jar"/>
+<jar href="lib/swing-worker-1.1.jar"/>
+<jar href="lib/toplink-essentials-agent.jar"/>
+<jar href="lib/toplink-essentials.jar"/>
+<jar href="lib/AbsoluteLayout.jar"/>
+<jar href="lib/appframework-1.0.3.jar"/>
+<jar href="lib/beansbinding-1.2.1.jar"/>
+<jar href="lib/org-netbeans-modules-java-j2seproject-copylibstask.jar"/>
+<jar href="lib/swing-layout-1.0.1.jar"/>
+<jar href="lib/swing-worker-1.1.jar"/>
+<jar href="lib/toplink-essentials-agent.jar"/>
+<jar href="lib/AbsoluteLayout.jar"/>
+<jar href="lib/appframework-1.0.3.jar"/>
+<jar href="lib/beansbinding-1.2.1.jar"/>
+<jar href="lib/swing-worker-1.1.jar"/>
+<jar href="lib/toplink-essentials-agent.jar"/>
+<jar href="lib/toplink-essentials.jar"/>
+<jar href="lib/swing-layout-1.0.1.jar"/>
+</resources>
+    <application-desc main-class="netbeanjavaclinic.NetbeanJavaClinicApp">
+        
+    </application-desc>
+</jnlp>

@@ -1,0 +1,519 @@
+<?xml version="1.1" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.7" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="background" type="java.awt.Color" resourceKey="Form.background"/>
+    <Property name="name" type="java.lang.String" value="Form" noResource="true"/>
+    <Property name="resizable" type="boolean" value="false"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="2"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+    <AuxValue name="designerSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,2,25,0,0,3,-33"/>
+  </AuxValues>
+
+  <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+    <Property name="useNullLayout" type="boolean" value="false"/>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" noResource="true" editor="org.netbeans.modules.form.editors2.FontEditor">
+          <FontInfo relative="true">
+            <Font bold="true" component="jLabel1" italic="true" property="font" relativeSize="true" size="0"/>
+          </FontInfo>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" resourceKey="jLabel12.foreground"/>
+        <Property name="text" type="java.lang.String" resourceKey="jLabel1.text"/>
+        <Property name="name" type="java.lang.String" value="jLabel1" noResource="true"/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="10" y="22" width="-1" height="-1"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextField1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" resourceKey="jComboBox5.font"/>
+        <Property name="foreground" type="java.awt.Color" resourceKey="jComboBox5.foreground"/>
+        <Property name="text" type="java.lang.String" resourceKey="jTextField1.text"/>
+        <Property name="name" type="java.lang.String" value="jTextField1" noResource="true"/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="80" y="20" width="140" height="20"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="foreground" type="java.awt.Color" resourceKey="jLabel12.foreground"/>
+        <Property name="text" type="java.lang.String" resourceKey="jLabel2.text"/>
+        <Property name="name" type="java.lang.String" value="jLabel2" noResource="true"/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="520" y="22" width="41" height="-1"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextField2">
+      <Properties>
+        <Property name="font" type="java.awt.Font" resourceKey="jComboBox5.font"/>
+        <Property name="foreground" type="java.awt.Color" resourceKey="jComboBox5.foreground"/>
+        <Property name="text" type="java.lang.String" resourceKey="jTextField2.text"/>
+        <Property name="name" type="java.lang.String" value="jTextField2" noResource="true"/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="590" y="20" width="109" height="20"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" resourceKey="jButton1.font"/>
+        <Property name="foreground" type="java.awt.Color" resourceKey="jButton1.foreground"/>
+        <Property name="text" type="java.lang.String" resourceKey="jButton1.text"/>
+        <Property name="name" type="java.lang.String" value="jButton1" noResource="true"/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="270" y="312" width="223" height="-1"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton2">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="jButton2.text"/>
+        <Property name="name" type="java.lang.String" value="jButton2" noResource="true"/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="520" y="312" width="-1" height="-1"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel3">
+      <Properties>
+        <Property name="foreground" type="java.awt.Color" resourceKey="jLabel12.foreground"/>
+        <Property name="text" type="java.lang.String" resourceKey="jLabel3.text"/>
+        <Property name="name" type="java.lang.String" value="jLabel3" noResource="true"/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="270" y="22" width="-1" height="-1"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextField3">
+      <Properties>
+        <Property name="font" type="java.awt.Font" resourceKey="jComboBox5.font"/>
+        <Property name="foreground" type="java.awt.Color" resourceKey="jComboBox5.foreground"/>
+        <Property name="text" type="java.lang.String" resourceKey="jTextField3.text"/>
+        <Property name="name" type="java.lang.String" value="jTextField3" noResource="true"/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="320" y="20" width="114" height="-1"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel4">
+      <Properties>
+        <Property name="font" type="java.awt.Font" noResource="true" editor="org.netbeans.modules.form.editors2.FontEditor">
+          <FontInfo relative="true">
+            <Font bold="true" component="jLabel4" italic="true" property="font" relativeSize="true" size="0"/>
+          </FontInfo>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" resourceKey="jLabel12.foreground"/>
+        <Property name="text" type="java.lang.String" resourceKey="jLabel4.text"/>
+        <Property name="name" type="java.lang.String" value="jLabel4" noResource="true"/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="10" y="86" width="60" height="-1"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel5">
+      <Properties>
+        <Property name="foreground" type="java.awt.Color" resourceKey="jLabel12.foreground"/>
+        <Property name="text" type="java.lang.String" resourceKey="jLabel5.text"/>
+        <Property name="name" type="java.lang.String" value="jLabel5" noResource="true"/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="270" y="86" width="-1" height="-1"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel6">
+      <Properties>
+        <Property name="foreground" type="java.awt.Color" resourceKey="jLabel12.foreground"/>
+        <Property name="text" type="java.lang.String" resourceKey="jLabel6.text"/>
+        <Property name="name" type="java.lang.String" value="jLabel6" noResource="true"/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="520" y="86" width="-1" height="-1"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextField4">
+      <Properties>
+        <Property name="font" type="java.awt.Font" resourceKey="jComboBox5.font"/>
+        <Property name="foreground" type="java.awt.Color" resourceKey="jComboBox5.foreground"/>
+        <Property name="text" type="java.lang.String" resourceKey="jTextField4.text"/>
+        <Property name="name" type="java.lang.String" value="jTextField4" noResource="true"/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="80" y="80" width="141" height="-1"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextField5">
+      <Properties>
+        <Property name="font" type="java.awt.Font" resourceKey="jComboBox5.font"/>
+        <Property name="foreground" type="java.awt.Color" resourceKey="jComboBox5.foreground"/>
+        <Property name="text" type="java.lang.String" resourceKey="jTextField5.text"/>
+        <Property name="name" type="java.lang.String" value="jTextField5" noResource="true"/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="320" y="80" width="114" height="20"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="jComboBox1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" resourceKey="jComboBox5.font"/>
+        <Property name="foreground" type="java.awt.Color" resourceKey="jComboBox5.foreground"/>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="2">
+            <StringItem index="0" value="Female"/>
+            <StringItem index="1" value="Male"/>
+          </StringArray>
+        </Property>
+        <Property name="name" type="java.lang.String" value="jComboBox1" noResource="true"/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="590" y="90" width="109" height="20"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel7">
+      <Properties>
+        <Property name="font" type="java.awt.Font" noResource="true" editor="org.netbeans.modules.form.editors2.FontEditor">
+          <FontInfo relative="true">
+            <Font bold="true" component="jLabel7" italic="true" property="font" relativeSize="true" size="0"/>
+          </FontInfo>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" resourceKey="jLabel12.foreground"/>
+        <Property name="text" type="java.lang.String" resourceKey="jLabel7.text"/>
+        <Property name="name" type="java.lang.String" value="jLabel7" noResource="true"/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="10" y="155" width="-1" height="-1"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel8">
+      <Properties>
+        <Property name="foreground" type="java.awt.Color" resourceKey="jLabel12.foreground"/>
+        <Property name="text" type="java.lang.String" resourceKey="jLabel8.text"/>
+        <Property name="name" type="java.lang.String" value="jLabel8" noResource="true"/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="270" y="155" width="-1" height="-1"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel9">
+      <Properties>
+        <Property name="foreground" type="java.awt.Color" resourceKey="jLabel12.foreground"/>
+        <Property name="text" type="java.lang.String" resourceKey="jLabel9.text"/>
+        <Property name="name" type="java.lang.String" value="jLabel9" noResource="true"/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="520" y="155" width="41" height="-1"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="jComboBox2">
+      <Properties>
+        <Property name="font" type="java.awt.Font" resourceKey="jComboBox5.font"/>
+        <Property name="foreground" type="java.awt.Color" resourceKey="jComboBox5.foreground"/>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="6">
+            <StringItem index="0" value="Married"/>
+            <StringItem index="1" value="Unmarried"/>
+            <StringItem index="2" value="Widow/er"/>
+            <StringItem index="3" value="Divorcee"/>
+            <StringItem index="4" value="Deserted"/>
+            <StringItem index="5" value=" "/>
+          </StringArray>
+        </Property>
+        <Property name="name" type="java.lang.String" value="jComboBox2" noResource="true"/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="80" y="150" width="124" height="-1"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextField6">
+      <Properties>
+        <Property name="font" type="java.awt.Font" resourceKey="jComboBox5.font"/>
+        <Property name="foreground" type="java.awt.Color" resourceKey="jComboBox5.foreground"/>
+        <Property name="text" type="java.lang.String" resourceKey="jTextField6.text"/>
+        <Property name="name" type="java.lang.String" value="jTextField6" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextField6ActionPerformed"/>
+      </Events>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="320" y="150" width="114" height="-1"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextField7">
+      <Properties>
+        <Property name="font" type="java.awt.Font" resourceKey="jComboBox5.font"/>
+        <Property name="foreground" type="java.awt.Color" resourceKey="jComboBox5.foreground"/>
+        <Property name="text" type="java.lang.String" resourceKey="jTextField7.text"/>
+        <Property name="name" type="java.lang.String" value="jTextField7" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextField7ActionPerformed"/>
+      </Events>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="590" y="150" width="109" height="20"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel10">
+      <Properties>
+        <Property name="font" type="java.awt.Font" noResource="true" editor="org.netbeans.modules.form.editors2.FontEditor">
+          <FontInfo relative="true">
+            <Font bold="true" component="jLabel10" italic="true" property="font" relativeSize="true" size="0"/>
+          </FontInfo>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" resourceKey="jLabel12.foreground"/>
+        <Property name="text" type="java.lang.String" resourceKey="jLabel10.text"/>
+        <Property name="name" type="java.lang.String" value="jLabel10" noResource="true"/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="10" y="236" width="-1" height="-1"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel11">
+      <Properties>
+        <Property name="foreground" type="java.awt.Color" resourceKey="jLabel12.foreground"/>
+        <Property name="text" type="java.lang.String" resourceKey="jLabel11.text"/>
+        <Property name="name" type="java.lang.String" value="jLabel11" noResource="true"/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="270" y="236" width="-1" height="-1"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel12">
+      <Properties>
+        <Property name="foreground" type="java.awt.Color" resourceKey="jLabel12.foreground"/>
+        <Property name="text" type="java.lang.String" resourceKey="jLabel12.text"/>
+        <Property name="name" type="java.lang.String" value="jLabel12" noResource="true"/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="528" y="236" width="-1" height="-1"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="jComboBox3">
+      <Properties>
+        <Property name="editable" type="boolean" value="true"/>
+        <Property name="font" type="java.awt.Font" resourceKey="jComboBox5.font"/>
+        <Property name="foreground" type="java.awt.Color" resourceKey="jComboBox5.foreground"/>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="19">
+            <StringItem index="0" value="BA"/>
+            <StringItem index="1" value="BSc"/>
+            <StringItem index="2" value="Bcom"/>
+            <StringItem index="3" value="BE"/>
+            <StringItem index="4" value="MBBS"/>
+            <StringItem index="5" value="BAMS"/>
+            <StringItem index="6" value="PG"/>
+            <StringItem index="7" value="PHD"/>
+            <StringItem index="8" value="CA"/>
+            <StringItem index="9" value="Architect"/>
+            <StringItem index="10" value="IT"/>
+            <StringItem index="11" value="HSC"/>
+            <StringItem index="12" value="SSC"/>
+            <StringItem index="13" value="Primary"/>
+            <StringItem index="14" value="Secondary"/>
+            <StringItem index="15" value="Illiterate"/>
+            <StringItem index="16" value="other"/>
+            <StringItem index="17" value=" "/>
+            <StringItem index="18" value=" "/>
+          </StringArray>
+        </Property>
+        <Property name="name" type="java.lang.String" value="jComboBox3" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jComboBox3ActionPerformed"/>
+      </Events>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="80" y="230" width="110" height="20"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="jComboBox4">
+      <Properties>
+        <Property name="editable" type="boolean" value="true"/>
+        <Property name="font" type="java.awt.Font" resourceKey="jComboBox5.font"/>
+        <Property name="foreground" type="java.awt.Color" resourceKey="jComboBox5.foreground"/>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="19">
+            <StringItem index="0" value="AutoRikshaw Driver"/>
+            <StringItem index="1" value="Builder"/>
+            <StringItem index="2" value="Business"/>
+            <StringItem index="3" value="Carpenter"/>
+            <StringItem index="4" value="Doctor"/>
+            <StringItem index="5" value="Driver"/>
+            <StringItem index="6" value="Farming"/>
+            <StringItem index="7" value="House wife"/>
+            <StringItem index="8" value="Labourer"/>
+            <StringItem index="9" value="Lawyer"/>
+            <StringItem index="10" value="Meson"/>
+            <StringItem index="11" value="CGService"/>
+            <StringItem index="12" value="MGService"/>
+            <StringItem index="13" value="PvtService"/>
+            <StringItem index="14" value="Student"/>
+            <StringItem index="15" value="Teacher"/>
+            <StringItem index="16" value="Unemployeed"/>
+            <StringItem index="17" value=" "/>
+            <StringItem index="18" value=" "/>
+          </StringArray>
+        </Property>
+        <Property name="name" type="java.lang.String" value="jComboBox4" noResource="true"/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="320" y="230" width="114" height="20"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="jComboBox5">
+      <Properties>
+        <Property name="editable" type="boolean" value="true"/>
+        <Property name="font" type="java.awt.Font" resourceKey="jComboBox5.font"/>
+        <Property name="foreground" type="java.awt.Color" resourceKey="jComboBox5.foreground"/>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="71">
+            <StringItem index="0" value="Self"/>
+            <StringItem index="1" value="Dr.Bhave"/>
+            <StringItem index="2" value="Dr.Abnave"/>
+            <StringItem index="3" value="Dr.Bafna"/>
+            <StringItem index="4" value="Dr.Bakare"/>
+            <StringItem index="5" value="Dr.Belhe"/>
+            <StringItem index="6" value="Dr.Bhambure"/>
+            <StringItem index="7" value="Dr.Bhosale"/>
+            <StringItem index="8" value="Dr.Bhujabal"/>
+            <StringItem index="9" value="Dr.Chavan "/>
+            <StringItem index="10" value="Dr.Chavan Nilima"/>
+            <StringItem index="11" value="Dr.Chavan Suren"/>
+            <StringItem index="12" value="Dr.Dabake"/>
+            <StringItem index="13" value="Dr.Devdhar"/>
+            <StringItem index="14" value="Dr.Dole"/>
+            <StringItem index="15" value="Dr.Dorge"/>
+            <StringItem index="16" value="Dr.DubePatil"/>
+            <StringItem index="17" value="Dr.Gandhi"/>
+            <StringItem index="18" value="Dr.Gund"/>
+            <StringItem index="19" value="Dr.Hambir"/>
+            <StringItem index="20" value="Dr.Harphale"/>
+            <StringItem index="21" value="Dr.Hegde"/>
+            <StringItem index="22" value="Dr.Ingale"/>
+            <StringItem index="23" value="Dr.Jagadale"/>
+            <StringItem index="24" value="Dr.Jagatap"/>
+            <StringItem index="25" value="Dr.Joshi Rasika"/>
+            <StringItem index="26" value="Dr.Joshi Ravindra"/>
+            <StringItem index="27" value="Dr.Kalbhor Rahul"/>
+            <StringItem index="28" value="Dr.Karambelkar"/>
+            <StringItem index="29" value="Dr.Karmarkar"/>
+            <StringItem index="30" value="Dr.Katkar"/>
+            <StringItem index="31" value="Dr.Kenjale"/>
+            <StringItem index="32" value="Dr.Kothari"/>
+            <StringItem index="33" value="dr.Kshirsagar"/>
+            <StringItem index="34" value="Dr.Kulkarni Bahar"/>
+            <StringItem index="35" value="Dr.kulkarni R.B."/>
+            <StringItem index="36" value="Dr.Kulkarni Rahul"/>
+            <StringItem index="37" value="Dr.Kumbhar"/>
+            <StringItem index="38" value="Dr.Kurtkoti"/>
+            <StringItem index="39" value="Dr.Mane"/>
+            <StringItem index="40" value="Dr.Momin"/>
+            <StringItem index="41" value="Dr.Mundle"/>
+            <StringItem index="42" value="Dr.Parbhane"/>
+            <StringItem index="43" value="Dr.Paygude"/>
+            <StringItem index="44" value="Dr.Penurkar"/>
+            <StringItem index="45" value="Dr.Pimpre"/>
+            <StringItem index="46" value="Dr.Pingale"/>
+            <StringItem index="47" value="Dr.Pote"/>
+            <StringItem index="48" value="Dr.Pujari "/>
+            <StringItem index="49" value="Dr.Ranade A"/>
+            <StringItem index="50" value="Dr.Ranade"/>
+            <StringItem index="51" value="Dr.Sambare"/>
+            <StringItem index="52" value="Dr.Satav"/>
+            <StringItem index="53" value="Dr.Satav R D"/>
+            <StringItem index="54" value="Dr.Shah"/>
+            <StringItem index="55" value="Dr.Shelar"/>
+            <StringItem index="56" value="Dr.Shende"/>
+            <StringItem index="57" value="Dr.Shikhare"/>
+            <StringItem index="58" value="Dr.Shinde"/>
+            <StringItem index="59" value="Dr.Salunke Deepak"/>
+            <StringItem index="60" value="Dr.Salunke Sanjay"/>
+            <StringItem index="61" value="Dr.Solunke"/>
+            <StringItem index="62" value="Dr.Talathi"/>
+            <StringItem index="63" value="Dr.Tamhane"/>
+            <StringItem index="64" value="Dr.Tupe"/>
+            <StringItem index="65" value="Dr.Vaidya"/>
+            <StringItem index="66" value="Dr.Wanve"/>
+            <StringItem index="67" value="Dr.Zende"/>
+            <StringItem index="68" value="Dr.Zumbre"/>
+            <StringItem index="69" value=" "/>
+            <StringItem index="70" value=" "/>
+          </StringArray>
+        </Property>
+        <Property name="name" type="java.lang.String" value="jComboBox5" noResource="true"/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="590" y="230" width="109" height="20"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+  </SubComponents>
+</Form>
